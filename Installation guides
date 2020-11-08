@@ -1,0 +1,6 @@
+# This file is my guide for installing R studio
+#1. Install R
+sudo apt-get update
+sudo apt install r-base
+Go to RStudio Home Page to download
+cd Downloads
