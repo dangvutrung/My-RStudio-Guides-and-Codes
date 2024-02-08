@@ -1,0 +1,17 @@
+# Step 1: set working directory
+
+setwd("D:/Local/R/R datafiles/R-BiostatisticsCoursePasteurOUCRU/Datasets")
+setwd ("D:/Local/R/R projects/R training")
+training_df <- read.csv("Training Database.csv")
+## Loading required libraries
+
+library(ggplot2)
+library(dplyr)
+library(knitr)
+## 
+output<- training_df %>% 
+  tab_cells(Tuyến) %>% 
+  tab_cols(total(), Giới.tính) %>% 
+  tab_stat_cpct() %>%
+  tab_pivot()
+View(output)
