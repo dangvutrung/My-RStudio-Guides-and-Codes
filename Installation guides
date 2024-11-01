@@ -4,3 +4,6 @@ sudo apt-get update
 sudo apt install r-base
 Go to RStudio Home Page to download
 cd Downloads
+# Guide for Windows
+# At Rstudio website, find link to download Rstudio for Windows, and download relevant files
+# Run downloaded file and follow installation guide
